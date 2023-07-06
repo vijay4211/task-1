@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.logo {
+  height: 25px;
+  text-align: center;
+  margin-bottom: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.product-list-section {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0px;
+  margin-bottom: 15px;
+}
+.product-list-section li {
+  margin: 0px 8px;
+  list-style-type: none;
+}
+.product-list-section a {
+  text-decoration: none;
+  color: black;
+}
+.feature {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  text-align: center;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.columns-section {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.columns-section div {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  text-align: center;
+  width: 40%;
+}
+.copywrite {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 5px 0px;
+  text-align: center;
+}
